@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  JNTestOK.m
 //  JNPodTest
 //
 //  Created by Jniying on 2019/3/14.
 //  Copyright © 2019 jniying. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JNTestOK.h"
 
-@interface ViewController : UIViewController
-
-
+@implementation JNTestOK
+- (void)sayHello {
+    NSLog(@"hello");
+}
 @end
-
