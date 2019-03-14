@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F06502B2239EA8400E20B6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F06502A2239EA8400E20B6E /* AppDelegate.m */; };
+		9F06502E2239EA8400E20B6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F06502D2239EA8400E20B6E /* ViewController.m */; };
+		9F0650312239EA8400E20B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F06502F2239EA8400E20B6E /* Main.storyboard */; };
+		9F0650342239EA8500E20B6E /* JNPodTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F0650322239EA8500E20B6E /* JNPodTest.xcdatamodeld */; };
+		9F0650362239EA8900E20B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0650352239EA8900E20B6E /* Assets.xcassets */; };
+		9F0650392239EA8900E20B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0650372239EA8900E20B6E /* LaunchScreen.storyboard */; };
+		9F06503C2239EA8900E20B6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F06503B2239EA8900E20B6E /* main.m */; };
+		9F0650462239EA8900E20B6E /* JNPodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0650452239EA8900E20B6E /* JNPodTestTests.m */; };
+		9F0650512239EA8A00E20B6E /* JNPodTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0650502239EA8A00E20B6E /* JNPodTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F0650422239EA8900E20B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F06501E2239EA8400E20B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F0650252239EA8400E20B6E;
+			remoteInfo = JNPodTest;
+		};
+		9F06504D2239EA8A00E20B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F06501E2239EA8400E20B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F0650252239EA8400E20B6E;
+			remoteInfo = JNPodTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F0650262239EA8400E20B6E /* JNPodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNPodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0650292239EA8400E20B6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F06502A2239EA8400E20B6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F06502C2239EA8400E20B6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F06502D2239EA8400E20B6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F0650302239EA8400E20B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F0650332239EA8500E20B6E /* JNPodTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JNPodTest.xcdatamodel; sourceTree = "<group>"; };
+		9F0650352239EA8900E20B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F0650382239EA8900E20B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F06503A2239EA8900E20B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F06503B2239EA8900E20B6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F0650412239EA8900E20B6E /* JNPodTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNPodTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0650452239EA8900E20B6E /* JNPodTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNPodTestTests.m; sourceTree = "<group>"; };
+		9F0650472239EA8900E20B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F06504C2239EA8A00E20B6E /* JNPodTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNPodTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0650502239EA8A00E20B6E /* JNPodTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNPodTestUITests.m; sourceTree = "<group>"; };
+		9F0650522239EA8A00E20B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F0650232239EA8400E20B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F06503E2239EA8900E20B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0650492239EA8900E20B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F06501D2239EA8400E20B6E = {
+			isa = PBXGroup;
+			children = (
+				9F0650282239EA8400E20B6E /* JNPodTest */,
+				9F0650442239EA8900E20B6E /* JNPodTestTests */,
+				9F06504F2239EA8A00E20B6E /* JNPodTestUITests */,
+				9F0650272239EA8400E20B6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F0650272239EA8400E20B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F0650262239EA8400E20B6E /* JNPodTest.app */,
+				9F0650412239EA8900E20B6E /* JNPodTestTests.xctest */,
+				9F06504C2239EA8A00E20B6E /* JNPodTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0650282239EA8400E20B6E /* JNPodTest */ = {
+			isa = PBXGroup;
+			children = (
+				9F0650292239EA8400E20B6E /* AppDelegate.h */,
+				9F06502A2239EA8400E20B6E /* AppDelegate.m */,
+				9F06502C2239EA8400E20B6E /* ViewController.h */,
+				9F06502D2239EA8400E20B6E /* ViewController.m */,
+				9F06502F2239EA8400E20B6E /* Main.storyboard */,
+				9F0650352239EA8900E20B6E /* Assets.xcassets */,
+				9F0650372239EA8900E20B6E /* LaunchScreen.storyboard */,
+				9F06503A2239EA8900E20B6E /* Info.plist */,
+				9F06503B2239EA8900E20B6E /* main.m */,
+				9F0650322239EA8500E20B6E /* JNPodTest.xcdatamodeld */,
+			);
+			path = JNPodTest;
+			sourceTree = "<group>";
+		};
+		9F0650442239EA8900E20B6E /* JNPodTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0650452239EA8900E20B6E /* JNPodTestTests.m */,
+				9F0650472239EA8900E20B6E /* Info.plist */,
+			);
+			path = JNPodTestTests;
+			sourceTree = "<group>";
+		};
+		9F06504F2239EA8A00E20B6E /* JNPodTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0650502239EA8A00E20B6E /* JNPodTestUITests.m */,
+				9F0650522239EA8A00E20B6E /* Info.plist */,
+			);
+			path = JNPodTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F0650252239EA8400E20B6E /* JNPodTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0650552239EA8A00E20B6E /* Build configuration list for PBXNativeTarget "JNPodTest" */;
+			buildPhases = (
+				9F0650222239EA8400E20B6E /* Sources */,
+				9F0650232239EA8400E20B6E /* Frameworks */,
+				9F0650242239EA8400E20B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNPodTest;
+			productName = JNPodTest;
+			productReference = 9F0650262239EA8400E20B6E /* JNPodTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F0650402239EA8900E20B6E /* JNPodTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0650582239EA8A00E20B6E /* Build configuration list for PBXNativeTarget "JNPodTestTests" */;
+			buildPhases = (
+				9F06503D2239EA8900E20B6E /* Sources */,
+				9F06503E2239EA8900E20B6E /* Frameworks */,
+				9F06503F2239EA8900E20B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0650432239EA8900E20B6E /* PBXTargetDependency */,
+			);
+			name = JNPodTestTests;
+			productName = JNPodTestTests;
+			productReference = 9F0650412239EA8900E20B6E /* JNPodTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F06504B2239EA8900E20B6E /* JNPodTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F06505B2239EA8A00E20B6E /* Build configuration list for PBXNativeTarget "JNPodTestUITests" */;
+			buildPhases = (
+				9F0650482239EA8900E20B6E /* Sources */,
+				9F0650492239EA8900E20B6E /* Frameworks */,
+				9F06504A2239EA8900E20B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F06504E2239EA8A00E20B6E /* PBXTargetDependency */,
+			);
+			name = JNPodTestUITests;
+			productName = JNPodTestUITests;
+			productReference = 9F06504C2239EA8A00E20B6E /* JNPodTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F06501E2239EA8400E20B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jniying;
+				TargetAttributes = {
+					9F0650252239EA8400E20B6E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9F0650402239EA8900E20B6E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9F0650252239EA8400E20B6E;
+					};
+					9F06504B2239EA8900E20B6E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9F0650252239EA8400E20B6E;
+					};
+				};
+			};
+			buildConfigurationList = 9F0650212239EA8400E20B6E /* Build configuration list for PBXProject "JNPodTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F06501D2239EA8400E20B6E;
+			productRefGroup = 9F0650272239EA8400E20B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F0650252239EA8400E20B6E /* JNPodTest */,
+				9F0650402239EA8900E20B6E /* JNPodTestTests */,
+				9F06504B2239EA8900E20B6E /* JNPodTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F0650242239EA8400E20B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0650392239EA8900E20B6E /* LaunchScreen.storyboard in Resources */,
+				9F0650362239EA8900E20B6E /* Assets.xcassets in Resources */,
+				9F0650312239EA8400E20B6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F06503F2239EA8900E20B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F06504A2239EA8900E20B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F0650222239EA8400E20B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F06502E2239EA8400E20B6E /* ViewController.m in Sources */,
+				9F06502B2239EA8400E20B6E /* AppDelegate.m in Sources */,
+				9F06503C2239EA8900E20B6E /* main.m in Sources */,
+				9F0650342239EA8500E20B6E /* JNPodTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F06503D2239EA8900E20B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0650462239EA8900E20B6E /* JNPodTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0650482239EA8900E20B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0650512239EA8A00E20B6E /* JNPodTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F0650432239EA8900E20B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F0650252239EA8400E20B6E /* JNPodTest */;
+			targetProxy = 9F0650422239EA8900E20B6E /* PBXContainerItemProxy */;
+		};
+		9F06504E2239EA8A00E20B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F0650252239EA8400E20B6E /* JNPodTest */;
+			targetProxy = 9F06504D2239EA8A00E20B6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F06502F2239EA8400E20B6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0650302239EA8400E20B6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F0650372239EA8900E20B6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0650382239EA8900E20B6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F0650532239EA8A00E20B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F0650542239EA8A00E20B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F0650562239EA8A00E20B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JNPodTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jniying.JNPodTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F0650572239EA8A00E20B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JNPodTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jniying.JNPodTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F0650592239EA8A00E20B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JNPodTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jniying.JNPodTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JNPodTest.app/JNPodTest";
+			};
+			name = Debug;
+		};
+		9F06505A2239EA8A00E20B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JNPodTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jniying.JNPodTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JNPodTest.app/JNPodTest";
+			};
+			name = Release;
+		};
+		9F06505C2239EA8A00E20B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JNPodTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jniying.JNPodTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JNPodTest;
+			};
+			name = Debug;
+		};
+		9F06505D2239EA8A00E20B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JNPodTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jniying.JNPodTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JNPodTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F0650212239EA8400E20B6E /* Build configuration list for PBXProject "JNPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0650532239EA8A00E20B6E /* Debug */,
+				9F0650542239EA8A00E20B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0650552239EA8A00E20B6E /* Build configuration list for PBXNativeTarget "JNPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0650562239EA8A00E20B6E /* Debug */,
+				9F0650572239EA8A00E20B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0650582239EA8A00E20B6E /* Build configuration list for PBXNativeTarget "JNPodTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0650592239EA8A00E20B6E /* Debug */,
+				9F06505A2239EA8A00E20B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F06505B2239EA8A00E20B6E /* Build configuration list for PBXNativeTarget "JNPodTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F06505C2239EA8A00E20B6E /* Debug */,
+				9F06505D2239EA8A00E20B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F0650322239EA8500E20B6E /* JNPodTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F0650332239EA8500E20B6E /* JNPodTest.xcdatamodel */,
+			);
+			currentVersion = 9F0650332239EA8500E20B6E /* JNPodTest.xcdatamodel */;
+			path = JNPodTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F06501E2239EA8400E20B6E /* Project object */;
+}
